@@ -1,0 +1,261 @@
+/***************************
+GENERAL
+****************************/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+h2, h3{
+	margin: 0px 0px 10px;
+	text-align: center;
+}
+
+textarea{
+	width: 600px;
+	height: 300px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+}
+
+.box{
+	width: 700px;
+	margin: 15px auto;
+	padding: 25px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px 4px #eee;
+	clear:both;
+}
+
+/*box model and float*/
+.wrapper{
+	margin: auto;
+	padding: 50px 5%;
+}
+
+table, th, td {
+   text-align: center;
+   padding: 10px 10px 10px 10px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	clear: both;
+}
+
+input{
+	border: 1px solid #bcbcbc;
+	border-radius: 5px;
+	height: 22px;
+	width: 250px;
+	margin-top: 5px;
+}
+/*box model*/
+/*TODO::buttion, input hover*/
+button {
+	margin-top: 10px;
+	margin-right: 35px;
+	padding: 0.5em 1.2em;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.table_btn{
+	width: 100px;
+	height: 35px;
+	margin-top: 10px;
+	margin-right: 0px;
+	padding: 0.5em 1.2em;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+#btn{
+	width: 150px;
+}
+
+#btn1{
+	width: 150px;
+}
+
+#btn2{
+	width: 150px;
+}
+
+/***************************
+HEADING
+****************************/
+/*float*/
+#login{
+	float: right;
+	font-family: 'Changa One', sans-serif;
+	margin: 0 5px 5px 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+header{
+	float:left;
+	text-align: center;
+	margin:0 0 15px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em
+}
+
+/***************************
+NAVIGATION
+****************************/
+
+nav{
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+/***************************
+FOOTER
+****************************/
+
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	clear:both;
+	color:#999;
+}
+
+/***************************
+COLORS
+****************************/
+
+/*login*/
+#login{
+	color: #999;
+}
+
+/*site body*/
+body{
+	background-color: #fff;
+	color: #999;
+}
+
+/*orange header*/
+header{
+	background: #cd853f;
+}
+
+h1, h2{
+	color: #BF5700;
+}
+
+/*nav background*/
+nav{
+	background-color: #a0522d
+}
+
+/*table colors*/
+th{
+	color: #fff;
+}
+
+/*links*/
+a{
+	color: #f5deb3;
+}
+
+table a{
+	color: #BF5700;
+}
+
+/*nav link*/
+nav a, nav a:visited {
+	color:#fff;
+}
+
+/*selected nav link*/
+nav a.selected, nav a:hover{
+	color:#f5deb3;
+}
+
+/*warning*/
+.warning{
+	color: #FF6961;
+}
+
+
+/***************************
+PAGE: REGISTER
+****************************/
+.chk{
+	width: 15px;
+}
+
+/***************************
+PAGE: ACCOUNTINFO
+****************************/
+#account{
+	width: 300px;
+	margin: 15px auto;
+	padding: 25px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px 4px #eee;
+	clear:both;
+}
+
+#id_btn{
+	padding-left: 15px;
+}
+
+/***************************
+PAGE: LOGIN
+****************************/
+#login_box{
+	width:300px;
+}
+
+/***************************
+PAGE: LISTITEM
+****************************/
+#addnew{
+	float: right;
+	margin-bottom: 10px;
+}
